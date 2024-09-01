@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "longitudinal studies - studies in which subjects are measured repeatedly through time\n\nObjective: to characterize the change in response over time and the factors that influence change\n\nindividual/subject - participant in a longitudinal study\noccasions - times at which subjects in a longitudinal study are measured\nbalanced - the number and time of repeated measurements is the same for all individuals"
+  },
+  {
+    "objectID": "notes.html#basic-definitions",
+    "href": "notes.html#basic-definitions",
+    "title": "Notes",
+    "section": "",
+    "text": "longitudinal studies - studies in which subjects are measured repeatedly through time\n\nObjective: to characterize the change in response over time and the factors that influence change\n\nindividual/subject - participant in a longitudinal study\noccasions - times at which subjects in a longitudinal study are measured\nbalanced - the number and time of repeated measurements is the same for all individuals"
+  },
+  {
+    "objectID": "notes.html#complications",
+    "href": "notes.html#complications",
+    "title": "Notes",
+    "section": "Complications",
+    "text": "Complications\n\nRepeated measures on individuals are correlated\nVariability is often heterogeneous across measurement occasions\nThe number and time of repeated measurements is not always the same for all individuals (the study is not always balanced)"
+  },
+  {
+    "objectID": "notes.html#models",
+    "href": "notes.html#models",
+    "title": "Notes",
+    "section": "Models",
+    "text": "Models\n\nMultiple Linear Regression\nDescribes how the expected value (mean) of a measured variable depends on a set of measured or categorical covariates.\n\nAssumptions\n\nIndividuals are represent a random sample from the population of interest\nIndependence: \\(Y_1, \\dots, Y_N\\) are independent random variables\nLinearity: \\(E(Y | X_1, \\dots, X_p)\\) is a linear function of each of the \\(X\\)’s\nNormality: Given the \\(X\\)’s, the individual observations of the dependent variable \\(Y_i\\) have a normal distribution\nHomoscedasticity: The variance of the errors, \\(Var(e_i)\\) is constant, \\(\\sigma^2\\)\n\n\n\nModel\n\\(Y_i = \\beta_1X_{i1} + \\beta_2X_2 + \\dots + \\beta_pX_{ip} + e\\)\nTypically, \\(X_{i1} = 1\\) for all \\(i\\), and \\(\\beta_1\\) is the intercept\n\n\n\nOne-Way Analysis of Variance (ANOVA)\nDescribes how the mean of a continuous dependent variable depends on a nominal (categorical) independent variable.\nWhen comparing \\(p\\) groups, variance comes from:\n\nthe variability between groups\nthe variability within groups\n\nANOVA tests if the variability between groups is greater than the variability within groups.\n\nHypotheses\n\\(H_0 : \\mu_1 = \\mu_2 = \\dots = \\mu_n\\)\n\\(H_a: \\mu_j\\text{'s not all equal}\\)\n\n\nAssumptions\n\nIndependence: \\(Y_1, \\dots, Y_N\\) are independent random variables\nNormality: Given the \\(X\\)’s, the individual observations of the dependent variable \\(Y_i\\) have a normal distribution\nHomoscedasticity: The variance of the errors, \\(Var(e_i)\\) is constant, \\(\\sigma^2\\)\n\n\n\nModel\n\\(Y_i = \\beta_1 + \\beta_2 X_{i2} + \\dots + \\beta_p X_{ip} + e\\)\n\n\nOther\n\nANOVA will yield the same results as multiple linear regression with dummy variables"
+  },
+  {
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "BSTT 537: Longitudinal Analysis",
+    "section": "",
+    "text": "hw1.pdf\n\nDue 2024/09/10 10:00am"
+  },
+  {
+    "objectID": "homework.html#homework",
+    "href": "homework.html#homework",
+    "title": "BSTT 537: Longitudinal Analysis",
+    "section": "",
+    "text": "hw1.pdf\n\nDue 2024/09/10 10:00am"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "bio226-bw-slides-2007.pdf\n\n\n\n\n\n\nlecture_intro.pdf\n\n\n\nlecture_anova.pdf"
+  },
+  {
+    "objectID": "lectures.html#textbook-sides",
+    "href": "lectures.html#textbook-sides",
+    "title": "Lectures",
+    "section": "",
+    "text": "bio226-bw-slides-2007.pdf"
+  },
+  {
+    "objectID": "lectures.html#class-overheads",
+    "href": "lectures.html#class-overheads",
+    "title": "Lectures",
+    "section": "",
+    "text": "lecture_intro.pdf\n\n\n\nlecture_anova.pdf"
+  }
+]

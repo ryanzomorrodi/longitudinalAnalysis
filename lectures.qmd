@@ -1,0 +1,14 @@
+# Lectures
+
+## Textbook Sides  
+
+### Entire Class
+[bio226-bw-slides-2007.pdf](pdf/bio226-bw-slides-2007.pdf)
+
+## Class Overheads
+
+### Intro
+[lecture_intro.pdf](pdf/lecture_intro.pdf)  
+
+### ANOVA
+[lecture_anova.pdf](pdf/lecture_anova.pdf)  

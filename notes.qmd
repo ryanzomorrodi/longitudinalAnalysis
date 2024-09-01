@@ -1,0 +1,82 @@
+---
+title: "Notes"
+engine: knitr
+---
+
+## Basic Definitions
+
+**longitudinal studies** - studies in which subjects are measured repeatedly through time
+
+-   Objective: to characterize the change in response over time and the factors that influence change
+
+**individual/subject** - participant in a longitudinal study
+
+**occasions** - times at which subjects in a longitudinal study are measured
+
+**balanced** - the number and time of repeated measurements is the same for all individuals
+
+## Complications
+
+-   Repeated measures on individuals are correlated
+
+-   Variability is often heterogeneous across measurement occasions
+
+-   The number and time of repeated measurements is not always the same for all individuals (the study is not always balanced)
+
+## Models
+
+### Multiple Linear Regression
+
+Describes how the expected value (mean) of a measured variable depends on a set of measured or categorical covariates.
+
+#### Assumptions
+
+-   Individuals are represent a random sample from the population of interest
+
+-   Independence: $Y_1, \dots, Y_N$ are independent random variables
+
+-   Linearity: $E(Y | X_1, \dots, X_p)$ is a linear function of each of the $X$'s
+
+-   Normality: Given the $X$'s, the individual observations of the dependent variable $Y_i$ have a normal distribution
+
+-   Homoscedasticity: The variance of the errors, $Var(e_i)$ is constant, $\sigma^2$
+
+#### Model
+
+$Y_i = \beta_1X_{i1} + \beta_2X_2 + \dots + \beta_pX_{ip} + e$
+
+Typically, $X_{i1} = 1$ for all $i$, and $\beta_1$ is the intercept
+
+### One-Way Analysis of Variance (ANOVA)
+
+Describes how the mean of a continuous dependent variable depends on a nominal (categorical) independent variable.
+
+When comparing $p$ groups, variance comes from:
+
+-   the variability between groups
+
+-   the variability within groups
+
+ANOVA tests if the variability between groups is greater than the variability within groups.
+
+#### Hypotheses
+
+$H_0 : \mu_1 = \mu_2 = \dots = \mu_n$
+
+$H_a: \mu_j\text{'s not all equal}$
+
+#### Assumptions
+
+-   Independence: $Y_1, \dots, Y_N$ are independent random variables
+
+-   Normality: Given the $X$'s, the individual observations of the dependent variable $Y_i$ have a normal distribution
+
+-   Homoscedasticity: The variance of the errors, $Var(e_i)$ is constant, $\sigma^2$
+
+#### Model
+
+$Y_i = \beta_1 + \beta_2 X_{i2} + \dots + \beta_p X_{ip} + e$
+
+#### Other
+
+-   ANOVA will yield the same results as multiple linear regression with dummy variables

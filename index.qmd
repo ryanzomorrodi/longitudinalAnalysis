@@ -1,0 +1,33 @@
+---
+author: "Ryan Zomorrodi"
+format:
+  dashboard:
+    orientation: columns
+    css: styles.css
+engine: knitr
+---
+
+
+## Class Info {width=70%}
+
+These are my notes for the Fall 2024 BSST 537 Survival Analysis course with Professor Li Liu.
+
+## Column {width=30%}
+
+::: {.valuebox icon="calendar-event" color="light"}
+Meeting Time  
+
+[Tuesday & Thursday 10-11:45am in SPH B34]()
+:::
+
+::: {.valuebox icon="card-checklist" color="light"}
+Syllabus  
+
+[syllabusf24.pdf](pdf/syllabusf24.pdf)
+:::
+
+::: {.valuebox icon="book" color="light"}
+Textbook 
+
+[Longitudinal Data Analysis]()
+:::

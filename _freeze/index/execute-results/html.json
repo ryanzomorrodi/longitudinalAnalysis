@@ -1,0 +1,17 @@
+{
+  "hash": "206b71e1daea7c9821d3a22bd4490fd0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\nauthor: \"Ryan Zomorrodi\"\nformat:\n  dashboard:\n    orientation: columns\n    css: styles.css\nengine: knitr\n---\n\n\n\n\n\n## Class Info {width=70%}\n\nThese are my notes for the Fall 2024 BSST 537 Survival Analysis course with Professor Li Liu.\n\n## Column {width=30%}\n\n::: {.valuebox icon=\"calendar-event\" color=\"light\"}\nMeeting Time  \n\n[Tuesday & Thursday 10-11:45am in SPH B34]()\n:::\n\n::: {.valuebox icon=\"card-checklist\" color=\"light\"}\nSyllabus  \n\n[syllabusf24.pdf](pdf/syllabusf24.pdf)\n:::\n\n::: {.valuebox icon=\"book\" color=\"light\"}\nTextbook \n\n[Longitudinal Data Analysis]()\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

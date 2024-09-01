@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "bio226-bw-slides-2007.pdf\n\n\n\n\n\n\nlecture_intro.pdf\n\n\n\nlecture_anova.pdf"
+  },
+  {
+    "objectID": "lectures.html#textbook-sides",
+    "href": "lectures.html#textbook-sides",
+    "title": "Lectures",
+    "section": "",
+    "text": "bio226-bw-slides-2007.pdf"
+  },
+  {
+    "objectID": "lectures.html#class-overheads",
+    "href": "lectures.html#class-overheads",
+    "title": "Lectures",
+    "section": "",
+    "text": "lecture_intro.pdf\n\n\n\nlecture_anova.pdf"
+  },
+  {
     "objectID": "notes.html",
     "href": "notes.html",
     "title": "Notes",
@@ -40,26 +61,5 @@
     "title": "BSTT 537: Longitudinal Analysis",
     "section": "",
     "text": "hw1.pdf\n\nDue 2024/09/10 10:00am"
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "bio226-bw-slides-2007.pdf\n\n\n\n\n\n\nlecture_intro.pdf\n\n\n\nlecture_anova.pdf"
-  },
-  {
-    "objectID": "lectures.html#textbook-sides",
-    "href": "lectures.html#textbook-sides",
-    "title": "Lectures",
-    "section": "",
-    "text": "bio226-bw-slides-2007.pdf"
-  },
-  {
-    "objectID": "lectures.html#class-overheads",
-    "href": "lectures.html#class-overheads",
-    "title": "Lectures",
-    "section": "",
-    "text": "lecture_intro.pdf\n\n\n\nlecture_anova.pdf"
   }
 ]
